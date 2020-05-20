@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require('cors')
 const bcrypt = require('bcrypt-nodejs')
-const knex = require('knex') lo
+const knex = require('knex')
 const register = require('./controllers/register')
 const signin = require('./controllers/signIn')
 const profile = require('./controllers/profile')
